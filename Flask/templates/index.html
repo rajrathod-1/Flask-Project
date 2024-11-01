@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+    <title>COVID-19 Statistics</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">COVID-19 Statistics</h1>
+        <button id="fetch-data" class="btn btn-primary mb-3">Fetch Data</button>
+        <table id="covid-data" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Country</th>
+                    <th>Date</th>
+                    <th>Confirmed Cases</th>
+                    <th>Deaths</th>
+                    <th>Recovered</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script src="/static/script.js"></script>
+
+</body>
+</html>
